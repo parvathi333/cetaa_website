@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official website prototype for CETAA (College of Engineering Trivandrum Alumni Association). Connecting 48,000+ global alumni, supporting GEMS, CARE, and HOPE scholarships.">
+  <title>CETAA | Connecting Generations, Empowering the Future</title>
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="header-wrapper">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link">
+        <div class="logo-badge">
+          <img src="assets/cetaa_logo.jpg" alt="CETAA Logo" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+        </div>
+        <div class="logo-text">
+          <h3>CETAA</h3>
+          <span>Alumni Association</span>
+        </div>
+      </a>
+      
+      <button class="hamburger" aria-label="Toggle Navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#alumni" class="nav-link">Alumni</a></li>
+          <li><a href="#scholarships" class="nav-link">Scholarships</a></li>
+          <li><a href="#news" class="nav-link">Newsroom</a></li>
+          <li><a href="renovation.html" class="nav-link nav-cta">Diamond Jubilee Hall</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-bg">
+      <div class="image-container">
+        <div class="image-fallback">
+          
+          <span class="fallback-text">CET Main Campus</span>
+        </div>
+        <img src="assets/campus_hero.jpg" alt="College of Engineering Trivandrum Campus" loading="eager">
+      </div>
+    </div>
+    
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <h1><span>Welcome to the CET Family</span>Connecting Generations, Empowering the Future</h1>
+        <p class="hero-tagline">Since 1939, the College of Engineering Trivandrum has groomed world-class innovators. Today, CETAA unites over 48,000 global CETins to sustain this legacy and support current students.</p>
+        <div class="hero-actions">
+          <a href="renovation.html" class="btn btn-accent">Renovation Campaign ➔</a>
+          <a href="#scholarships" class="btn btn-glass">Scholarship Schemes</a>
+        </div>
+      </div>
+      
+      <div class="hero-visual reveal" style="height: 480px; overflow: hidden; position: relative; border-radius: var(--border-radius-lg); box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);">
+        <div class="campus-slideshow" style="width: 100%; height: 100%; position: relative;">
+          <!-- Slides 1 to 20 -->
+          <div class="campus-slide active" style="position: absolute; inset: 0; opacity: 1; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide1.png" alt="CET Campus Photo 1" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide2.png" alt="CET Campus Photo 2" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide3.png" alt="CET Campus Photo 3" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide4.png" alt="CET Campus Photo 4" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide5.png" alt="CET Campus Photo 5" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide6.png" alt="CET Campus Photo 6" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide7.png" alt="CET Campus Photo 7" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide8.png" alt="CET Campus Photo 8" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide9.png" alt="CET Campus Photo 9" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide10.png" alt="CET Campus Photo 10" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide11.png" alt="CET Campus Photo 11" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide12.png" alt="CET Campus Photo 12" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide13.png" alt="CET Campus Photo 13" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide14.png" alt="CET Campus Photo 14" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide15.png" alt="CET Campus Photo 15" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide16.png" alt="CET Campus Photo 16" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide17.png" alt="CET Campus Photo 17" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide18.png" alt="CET Campus Photo 18" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide19.png" alt="CET Campus Photo 19" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+          <div class="campus-slide" style="position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease;">
+            <div class="image-container" style="height: 100%; border-radius: 0; box-shadow: none;">
+              <img src="assets/cet_slide20.png" alt="CET Campus Photo 20" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+          </div>
+        </div>
+        <div class="slideshow-dots" style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); display: flex; gap: 6px; z-index: 10;">
+          <span class="slide-dot active" style="width: 8px; height: 8px; border-radius: 50%; background: var(--accent); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+          <span class="slide-dot" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s;"></span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="hero-shape">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Stats Strip Section -->
+  <section class="stats-section container">
+    <div class="glass-card stats-grid reveal">
+      <div class="stats-card">
+        <h3 class="counter" data-target="1939" data-suffix="">0</h3>
+        <p>CET Founded</p>
+      </div>
+      <div class="stats-card">
+        <h3 class="counter" data-target="48000" data-suffix="+">0</h3>
+        <p>Global Alumni</p>
+      </div>
+      <div class="stats-card">
+        <h3 class="counter" data-target="20" data-suffix="+">0</h3>
+        <p>Global Chapters</p>
+      </div>
+      <div class="stats-card">
+        <h3 class="counter" data-target="1976" data-suffix="">0</h3>
+        <p>CETAA Established</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Mission Section -->
+  <section id="about" class="section-padding">
+    <div class="container mission-grid">
+      <div class="mission-media reveal">
+        <div class="image-container">
+          <div class="image-fallback">
+            
+            <span class="fallback-text">CETAA Heritage & Story</span>
+            <span class="fallback-desc">Founded in 1976 to bridge alumni and alma mater.</span>
+          </div>
+          <img src="assets/cet_slide2.png" alt="CET Campus View" loading="lazy">
+        </div>
+      </div>
+      
+      <div class="mission-content reveal">
+        <h4>Our Heritage & Story</h4>
+        <h2 class="section-title-left">Connect. Empower. Transform.</h2>
+        <p class="mission-text" style="font-size: 0.98rem; margin-bottom: 20px; line-height: 1.6;">
+          Established on <strong>3rd July 1939</strong> under the reign of the Travancore King, <strong>Sri Chithira Thirunal Balarama Varma</strong>, the College of Engineering Trivandrum (CET) was the first engineering college in the former Travancore State. Initially housed in the Chief Engineer's bungalow (present PMG office) under its first Principal, <strong>Maj T.H. Mathewman</strong>, it began with 21 degree students. In 1960, CET shifted to its present sprawling <strong>125-acre campus</strong>.
+        </p>
+        <p class="mission-text" style="font-size: 0.98rem; margin-bottom: 24px; line-height: 1.6;">
+          Today, under the APJ Abdul Kalam Technological University, CET has grown to around 4,500 students, 311 faculty, and 290 staff. Offered degrees include B.Tech, B.Arch, M.Tech, M.Plan, MCA, and MBA. Ranking <strong>71st in the NIRF National Rankings</strong>, CET remains a leading technical institution and the most sought-after destination for engineering education in Kerala.
+        </p>
+        <ul class="mission-points">
+          <li>
+            <div class="mission-icon"><svg class="icon-svg" style="color: var(--primary);" viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 3.34 5 5s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg></div>
+            <div>
+              <h5>Global Network</h5>
+              <p>Reconnecting over 48,000 CETins across 20+ global chapters founded since 1976.</p>
+            </div>
+          </li>
+          <li>
+            <div class="mission-icon"><svg class="icon-svg" style="color: var(--primary);" viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg></div>
+            <div>
+              <h5>Student Empowerment</h5>
+              <p>Direct financial support via the GEMS scheme, CARE batch sponsorships, and HOPE Plus mentorship.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership Messages -->
+  <section class="section-padding leadership-section">
+    <div class="container">
+      <div class="text-center reveal">
+        <h2 class="section-title">Messages from Leadership</h2>
+        <p class="subtitle">Words of encouragement and inspiration from the CETAA Committee leadership.</p>
+      </div>
+      
+      <div class="leadership-grid">
+        <!-- President's Message -->
+        <div class="glass-card message-card reveal">
+          <div class="message-quote">
+            "CET has completed glorious years of quality education, yielding over 48,000 global alumni. From GEMS scholarships and the HOPE project to donating 250 laptops (raising ₹75 Lakhs) during the pandemic, our alumni commit their time, talents, and funds. We are proud of your support in branding our CET family."
+          </div>
+          <div class="message-author" style="justify-content: space-between; align-items: center; gap: 12px;">
+            <div class="flex" style="align-items: center; gap: 15px;">
+              <div class="author-avatar">S</div>
+              <div class="author-info">
+                <h5>Dr. Suresh K.</h5>
+                <p>Principal, CET & President of CETAA</p>
+              </div>
+            </div>
+            <button class="btn btn-outline" id="trigger-president-modal" style="padding: 6px 12px; font-size: 0.8rem; margin-top: 0; white-space: nowrap;">Full Letter</button>
+          </div>
+        </div>
+        
+        <!-- Secretary's Message -->
+        <div class="glass-card message-card reveal">
+          <div class="message-quote">
+            "Our alumni network spans the globe, but our hearts remain rooted in Trivandrum. Whether you graduated in 1960 or 2020, you form a crucial link in this chain. Let us come together to renovate the Diamond Jubilee Hall—a space that has hosted our memories—bringing it to state-of-the-art standards."
+          </div>
+          <div class="message-author">
+            <div class="author-avatar">S</div>
+            <div class="author-info">
+              <h5>Secretary, CETAA</h5>
+              <p>Executive Committee Office Bearer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scholarship Schemes Section -->
+  <section id="scholarships" class="section-padding">
+    <div class="container">
+      <div class="text-center reveal">
+        <h2 class="section-title">CETAA Scholarship Schemes</h2>
+        <p class="subtitle">Alumni supporting current students academically and financially to ensure no meritorious student is left behind.</p>
+      </div>
+      
+      <div class="schemes-grid">
+        <!-- GEMS -->
+        <div class="scheme-card reveal">
+          <div>
+            <div class="scheme-badge">GEMS Scheme</div>
+            <h4>Growing Engineers' Monetary Support</h4>
+            <p class="scheme-desc">Merit-cum-means scholarship designed specifically to help economically challenged students studying at CET cover academic expenses.</p>
+          </div>
+          <div class="scheme-details">
+            <div class="scheme-meta">
+              <span class="meta-label">Financial Aid</span>
+              <span class="meta-value">₹10,000 / year</span>
+            </div>
+            <div class="scheme-meta">
+              <span class="meta-label">Target Audience</span>
+              <span class="meta-value">CET Engineering Students</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- CARE -->
+        <div class="scheme-card reveal">
+          <div>
+            <div class="scheme-badge">CARE Scheme</div>
+            <h4>Continuous Assistance for Rising Engineers</h4>
+            <p class="scheme-desc">A highly personalized, one-to-one sponsorship program where an alumnus or chapter funds a student's entire four-year degree expenses.</p>
+          </div>
+          <div class="scheme-details">
+            <div class="scheme-meta">
+              <span class="meta-label">Total Sponsorship</span>
+              <span class="meta-value">₹1,60,000 (4 Years)</span>
+            </div>
+            <div class="scheme-meta">
+              <span class="meta-label">Coverage</span>
+              <span class="meta-value">Fees, Lodging & Travel</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- HOPE PLUS -->
+        <div class="scheme-card reveal">
+          <div>
+            <div class="scheme-badge">HOPE Plus Scheme</div>
+            <h4>Helping Outstanding Pupils in Education</h4>
+            <p class="scheme-desc">Managed by the CETA Galaxy Trust, this program funds secondary education and provides 5 years of career guidance post-12th grade.</p>
+          </div>
+          <div class="scheme-details">
+            <div class="scheme-meta">
+              <span class="meta-label">Career Mentoring</span>
+              <span class="meta-value">5 Years Guidance</span>
+            </div>
+            <div class="scheme-meta">
+              <span class="meta-label">Target Audience</span>
+              <span class="meta-value">School to Higher Ed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wall of Pride / Distinguished Alumni Section -->
+  <section id="alumni" class="section-padding pride-section">
+    <div class="container">
+      
+      <!-- Part 1: Distinguished Alumni -->
+      <div class="text-center reveal" style="margin-bottom: 50px;">
+        <h2 class="section-title">Distinguished Alumni Spotlight</h2>
+        <p class="subtitle">CET has produced global leaders, space scientists, union ministers, and corporate directors. We celebrate their milestones.</p>
+      </div>
+      
+      <div class="alumni-grid" style="margin-bottom: 80px;">
+        <!-- Dr. G. Madhavan Nair -->
+        <div class="pride-card reveal">
+          <div class="pride-img">
+            <div class="image-container">
+              <div class="image-fallback" style="background: linear-gradient(135deg, #0f172a, #334155);">
+                
+                <span class="fallback-text">Dr. G. Madhavan Nair</span>
+                <span class="fallback-desc">Former Chairman, ISRO</span>
+              </div>
+              <img src="assets/alumni_madhavan_nair.jpg" alt="Dr. G. Madhavan Nair" class="alumni-img" loading="lazy">
+            </div>
+          </div>
+          <div class="pride-body" style="padding: 24px;">
+            <span class="pride-tag">Electrical, 1966</span>
+            <h4 style="font-size: 1.15rem; margin-bottom: 8px;">Dr. G. Madhavan Nair</h4>
+            <p style="font-size: 0.85rem; margin-bottom: 0; line-height: 1.5;">Former Chairman of ISRO and Secretary to the Department of Space, Government of India. Awarded the prestigious Padma Vibhushan for space science leadership.</p>
+          </div>
+        </div>
+
+        <!-- Dr. V. R. Lalithambika -->
+        <div class="pride-card reveal">
+          <div class="pride-img">
+            <div class="image-container">
+              <div class="image-fallback" style="background: linear-gradient(135deg, #0f172a, #334155);">
+                
+                <span class="fallback-text">Dr. V.R. Lalithambika</span>
+                <span class="fallback-desc">Director, Gaganyaan Mission</span>
+              </div>
+              <img src="assets/news_lalithambika.jpg" alt="Dr. V. R. Lalithambika" class="alumni-img" loading="lazy">
+            </div>
+          </div>
+          <div class="pride-body" style="padding: 24px;">
+            <span class="pride-tag">Electrical, 1980</span>
+            <h4 style="font-size: 1.15rem; margin-bottom: 8px;">Dr. V. R. Lalithambika</h4>
+            <p style="font-size: 0.85rem; margin-bottom: 0; line-height: 1.5;">Former Director of the Human Spaceflight Programme (Gaganyaan) at ISRO. Renowned space scientist specializing in launch vehicle control systems.</p>
+          </div>
+        </div>
+
+        <!-- Tony Thomas -->
+        <div class="pride-card reveal">
+          <div class="pride-img">
+            <div class="image-container">
+              <div class="image-fallback" style="background: linear-gradient(135deg, #0f172a, #334155);">
+                
+                <span class="fallback-text">Tony Thomas</span>
+                <span class="fallback-desc">CDIO, Signify</span>
+              </div>
+              <img src="assets/alumni_tony_thomas.jpg" alt="Tony Thomas" class="alumni-img" loading="lazy">
+            </div>
+          </div>
+          <div class="pride-body" style="padding: 24px;">
+            <span class="pride-tag">Civil, 1989</span>
+            <h4 style="font-size: 1.15rem; margin-bottom: 8px;">Tony Thomas</h4>
+            <p style="font-size: 0.85rem; margin-bottom: 0; line-height: 1.5;">Chief Digital and Information Officer (CDIO) at Signify (formerly Philips Lighting) and former CIO of Nissan Motor Corporation.</p>
+          </div>
+        </div>
+
+        <!-- Prakash Chandran -->
+        <div class="pride-card reveal">
+          <div class="pride-img">
+            <div class="image-container">
+              <div class="image-fallback" style="background: linear-gradient(135deg, #0f172a, #334155);">
+                
+                <span class="fallback-text">Prakash Chandran</span>
+                <span class="fallback-desc">President, Siemens Indonesia</span>
+              </div>
+              <img src="assets/alumni_prakash_chandran.jpg" alt="Prakash Chandran" class="alumni-img" loading="lazy">
+            </div>
+          </div>
+          <div class="pride-body" style="padding: 24px;">
+            <span class="pride-tag">Mechanical, 1984</span>
+            <h4 style="font-size: 1.15rem; margin-bottom: 8px;">Prakash Chandran</h4>
+            <p style="font-size: 0.85rem; margin-bottom: 0; line-height: 1.5;">President Director and CEO of Siemens Indonesia. A leader in global energy, manufacturing, and industrial automation technology.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Departmental Alumni Portals -->
+      <div class="text-center reveal" style="margin-top: 40px; margin-bottom: 20px;">
+        <p style="margin-bottom: 20px; font-weight: 600; color: var(--text-muted);">Explore Alumni by Department:</p>
+        <div class="flex" style="justify-content: center; gap: 16px; flex-wrap: wrap;">
+          <a href="https://alumni.cet.ac.in/page/Department-of-Electrical-Engineering.dz" class="btn btn-outline" target="_blank" rel="noopener noreferrer" style="padding: 10px 24px; font-size: 0.9rem; border-radius: 30px;">Electrical Department Alumni</a>
+          <a href="https://alumni.cet.ac.in/page/Department-of-Mechanical-Engineering.dz" class="btn btn-outline" target="_blank" rel="noopener noreferrer" style="padding: 10px 24px; font-size: 0.9rem; border-radius: 30px;">Mechanical Department Alumni</a>
+          <a href="https://alumni.cet.ac.in/page/Department-of-Civil-Engineering.dz" class="btn btn-outline" target="_blank" rel="noopener noreferrer" style="padding: 10px 24px; font-size: 0.9rem; border-radius: 30px;">Civil Engineering Alumni</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Community & Campus News Section -->
+  <section id="news" class="section-padding news-section" style="background-color: var(--bg-secondary); border-top: 1px solid rgba(15, 34, 71, 0.04); border-bottom: 1px solid rgba(15, 34, 71, 0.04);">
+    <div class="container">
+      
+      <!-- Part 2: Wall of Pride / News -->
+      <div class="text-center reveal" style="margin-bottom: 50px;">
+        <h2 class="section-title">Latest Community & Campus News</h2>
+        <p class="subtitle">Stay updated with the latest achievements, awards, and charity initiatives driven by CETAA chapters and students.</p>
+      </div>
+
+      <div class="pride-grid">
+        <!-- 1976 Batch Golden Jubilee -->
+        <div class="pride-card reveal">
+          <div class="pride-img">
+            <div class="image-container">
+              <div class="image-fallback" style="background: linear-gradient(135deg, #0f2247, #1e3a8a);">
+                <span class="fallback-text">1976 Batch Golden Jubilee</span>
+              </div>
+              <img src="assets/news_1976_batch.jpg" alt="1976 Batch Golden Jubilee Indoor Sports Arena Refurbishment" loading="lazy">
+            </div>
+          </div>
+          <div class="pride-body" style="padding: 24px;">
+            <span class="pride-tag">Golden Jubilee</span>
+            <h4 style="font-size: 1.15rem; margin-bottom: 8px;">Heartfelt Gratitude to 1976 Batch</h4>
+            <p style="font-size: 0.85rem; margin-bottom: 12px; line-height: 1.5;">CETAA expresses deep appreciation to the Batch of 1976 for refurbishing the Indoor Sports Arena in commemoration of their Golden Jubilee celebrations.</p>
+            <a href="https://alumni.cet.ac.in/newsroom/news/Heartfelt-Gratitude-to-the-1976-Batch-Golden-Jubilee-Batch.dz" class="pride-link" target="_blank" rel="noopener noreferrer">Read Story ➔</a>
+          </div>
+        </div>
+        
+        <!-- CETAA Souvenir 2026 -->
+        <div class="pride-card reveal">
+          <div class="pride-img">
+            <div class="image-container">
+              <div class="image-fallback" style="background: linear-gradient(135deg, #0f2247, #1e3a8a);">
+                <span class="fallback-text">CETAA Souvenir 2026</span>
+              </div>
+              <img src="assets/news_souvenir_2026.jpg" alt="CETAA Souvenir 2026 Call for Articles" loading="lazy">
+            </div>
+          </div>
+          <div class="pride-body" style="padding: 24px;">
+            <span class="pride-tag">Souvenir 2026</span>
+            <h4 style="font-size: 1.15rem; margin-bottom: 8px;">CETAA Souvenir 2026 Contributions</h4>
+            <p style="font-size: 0.85rem; margin-bottom: 12px; line-height: 1.5;">Alumni are invited to submit personal reminiscences, anecdotes, technical articles, poetry, and creative works for the upcoming annual Souvenir by June 28, 2026.</p>
+            <a href="https://alumni.cet.ac.in/newsroom/news/CETAA-Souvenir-2026.dz" class="pride-link" target="_blank" rel="noopener noreferrer">Read Story ➔</a>
+          </div>
+        </div>
+        
+        <!-- CET Innovation Award 2026 -->
+        <div class="pride-card reveal">
+          <div class="pride-img">
+            <div class="image-container">
+              <div class="image-fallback" style="background: linear-gradient(135deg, #0f2247, #1e3a8a);">
+                <span class="fallback-text">CET Innovation Award 2026</span>
+              </div>
+              <img src="assets/news_innovation_award_2026.jpg" alt="CET Innovation Award 2026 Application Drive" loading="lazy">
+            </div>
+          </div>
+          <div class="pride-body" style="padding: 24px;">
+            <span class="pride-tag">Innovation Award</span>
+            <h4 style="font-size: 1.15rem; margin-bottom: 8px;">CET Innovation Award 2026</h4>
+            <p style="font-size: 0.85rem; margin-bottom: 12px; line-height: 1.5;">Recognizing exceptional student innovation with a focus on campus enhancement. The award carries a cash prize of ₹12,000. Apply by June 22.</p>
+            <a href="https://alumni.cet.ac.in/newsroom/news/CET-Innovation-Award-2026.dz" class="pride-link" target="_blank" rel="noopener noreferrer">Read Story ➔</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner to Renovation Page -->
+  <section class="section-padding container">
+    <div class="cta-banner reveal">
+      <div class="cta-banner-content">
+        <h2>A Legacy Reimagined</h2>
+        <p>Support the Diamond Jubilee Hall Renovation. Let's modernize our historic hall with central air-conditioning, enhanced acoustics, and accessible amenities for future generations of CETins.</p>
+        <a href="renovation.html" class="btn btn-accent">Renovation Campaign ➔</a>
+      </div>
+      <div class="cta-accent-accent">CET</div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer-section">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <div class="footer-logo">
+          <div class="footer-logo-badge">
+            <img src="assets/cetaa_logo.jpg" alt="CETAA Logo" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;">
+          </div>
+          <h3>CETAA <span>Alumni Association</span></h3>
+        </div>
+        <p>Connecting alumni globally, supporting student development, and enriching the academic environment of the College of Engineering Trivandrum since 1976.</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/groups/cetaa/" class="social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+            <img src="assets/facebook.svg" alt="Facebook">
+          </a>
+          <a href="https://www.linkedin.com/company/cetaa-cet/?originalSubdomain=in" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+            <img src="assets/linkedin.svg" alt="LinkedIn">
+          </a>
+          <a href="https://www.instagram.com/cetaacet/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+            <img src="assets/instagram.svg" alt="Instagram">
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#alumni">Distinguished Alumni</a></li>
+          <li><a href="#scholarships">Scholarship Schemes</a></li>
+          <li><a href="#news">Newsroom</a></li>
+          <li><a href="renovation.html">Diamond Jubilee Campaign</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Scholarships</h4>
+        <ul class="footer-links">
+          <li><a href="#scholarships">GEMS Scholarship</a></li>
+          <li><a href="#scholarships">CARE sponsorship</a></li>
+          <li><a href="#scholarships">HOPE & HOPE Plus</a></li>
+          <li><a href="renovation.html#donate">Contribution Tiers</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Contact Info</h4>
+        <ul class="footer-contact">
+          <li>
+            <span class="footer-contact-icon"><svg class="icon-svg" style="color: var(--accent); margin-right: 6px;" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg></span>
+            <span>CETAA Office, College of Engineering Campus, Kulathoor, Thiruvananthapuram, Kerala - 695016, India</span>
+          </li>
+          <li>
+            <span class="footer-contact-icon"><svg class="icon-svg" style="color: var(--accent); margin-right: 6px;" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></span>
+            <span>office@cetaa.com<br>secretary@alumni.cet.ac.in</span>
+          </li>
+          <li>
+            <span class="footer-contact-icon"><svg class="icon-svg" style="color: var(--accent); margin-right: 6px;" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg></span>
+            <span>+91 471 259 8456</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>Copyright &copy; 2026 College of Engineering Trivandrum Alumni Association (CETAA). All Rights Reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PRESIDENT'S MESSAGE MODAL -->
+  <div class="modal-overlay" id="president-message-modal">
+    <div class="modal-box" style="max-width: 700px;">
+      <button class="modal-close-btn" id="close-president-modal" aria-label="Close Modal">×</button>
+      
+      <div class="modal-header">
+        <h3>President's Message</h3>
+        <p>Dr. Suresh K., Principal of CET & President of CETAA</p>
+      </div>
+      
+      <div class="modal-body" style="max-height: 60vh; overflow-y: auto; text-align: left; padding: 30px;">
+        <p style="margin-bottom: 12px; font-size: 0.95rem; color: var(--text-main);">College of Engineering Trivandrum, established in the year 1939 has completed 81 glorious years. The institution has been imparting quality engineering education to students over these years resulting in more than 48,000 alumni shining in various professions across the globe. Our alumni include eminent engineers, great scientists, renowned academicians, top bureaucrats, industrialists, and entrepreneurs.</p>
+        <p style="margin-bottom: 12px; font-size: 0.95rem; color: var(--text-main);">College of Engineering Trivandrum had a humble beginning with three Engineering branches: namely Civil, Mechanical and Electrical Engineering with 18 students in each branch.</p>
+        <p style="margin-bottom: 12px; font-size: 0.95rem; color: var(--text-main);">Over these years, CET has been elevated to one of the top Engineering institutions of India. Currently CET offers 7 B. Tech programs, 27 different M. Tech specialisations, B. Arch, M. Arch, MCA, MBA and doctoral programs comprising of 4500 students, 300 faculty members and 250 nonteaching staff.</p>
+        <p style="margin-bottom: 12px; font-size: 0.95rem; color: var(--text-main);">For further enhancement of institutional success, we are moving forward with our vision of 'Institution of excellence with International repute' having National level excellence and International Visibility in every facet of Engineering Research and Education.</p>
+        <p style="margin-bottom: 12px; font-size: 0.95rem; color: var(--text-main);">It is really encouraging that, in the National Institutional Ranking Framework called NIRF, established by Government of India, which measures the National level excellence of Academic Institutions and Universities, we were ranked 85th in the Engineering category and 11th in the architecture category at the National level. We could achieve this only because of our excellent teaching learning resources, better academic performance of our students and their campus placements.</p>
+        <p style="margin-bottom: 12px; font-size: 0.95rem; color: var(--text-main);">It must be noted that IIT Chennai, the one which topped in the NIRF ranking has an annual budget of nearly Rupees 700 crores versus our annual budget is around 100 crores, and fully funded by the Government of Kerala. IIT Chennai has more than 2000 Ph.D. students but we have only 200 regular Ph.D. students in the campus. 40% weightage in the ranking process is for research related activities and the resulting outcomes.</p>
+        <p style="margin-bottom: 12px; font-size: 0.95rem; color: var(--text-main);">In the coming years, we aim to achieve a higher position, to be in the top 30 at the national level. CET has to be transformed into a top tier research and learning institution with state-of-the-art facilities and industry linkage. In this regard, our Alumni can play a major role.</p>
+        <p style="margin-bottom: 12px; font-size: 0.95rem; color: var(--text-main);">The greatest treasure that an institution cherishes and relies upon is its alumni. College of Engineering Trivandrum Alumni Association (CETAA) was initiated in the year 1976. They ensure support to deserving students through the Growing Engineers Monetary Support (GEMS) scheme. In the past 10 years, CETAA has provided GEMS scholarship to 300 students, each student being given Rs 10,000/- per year.</p>
+        <p style="margin-bottom: 12px; font-size: 0.95rem; color: var(--text-main);">I would like to appreciate the great social initiative, the CETAA HOPE project led by the UAE chapter who support several school, college and professional students financially, and the prompt COVID-19 pandemic response where our alumni donated 250 laptops for deserving students, raising nearly 75 lakhs within a month.</p>
+        <p style="margin-bottom: 12px; font-size: 0.95rem; color: var(--text-main);">Apart from financial support, our alumni now are directly involved in conducting various programmes to enhance the skills of our students. As the Principal of CET, I am proud of you, my dear friends. Your continued support with your time, talents and funds is most appreciated.</p>
+        <p style="margin-top: 20px; font-weight: 700; color: var(--primary);">Dr. SURESH K</p>
+        <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 500;">Principal, College of Engineering Trivandrum</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js?v=1.0.1"></script>
+</body>
+</html>
